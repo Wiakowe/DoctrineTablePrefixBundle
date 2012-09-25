@@ -1,0 +1,29 @@
+{
+    "name": "wiakowe/doctrine-table-prefix-bundle",
+    "type": "symfony-bundle",
+    "description": ".",
+    "tags": ["symfony", "bundle", "doctrine", "table prefix"],
+    "license": "MIT",
+    "authors": [
+        { "name": "Roger Llopart Pla", "email": "lumbendil@gmail.com" },
+        { "name": "Aitor Suso", "email": "patxi1980@gmail.com" }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": ">=2.1.0, <2.2-dev",
+        "doctrine/doctrine-bundle": "1.0.*",
+        "doctrine/orm": ">=2.0.0, <2.4-dev"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Wiakowe\\DoctrineTablePrefixBundle": ""
+        }
+    },
+    "target-dir": "Wiakowe/DoctrineTablePrefixBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
